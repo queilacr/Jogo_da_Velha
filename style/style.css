@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(46, 40, 40);
+    text-align: center;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    color: #c0e6e7;
+    text-shadow: 5px 5px #121213de;
+    font-size: 42px;
+    
+    margin-top: 0;
+}
+.stage{
+
+}
+.square:hover{
+    background-color: #2b1e18;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #351b11;
+    border: 1px solid #4b4f50d0;
+    box-shadow: 2px 2px 8px #d99ddf2f;
+    display: inline-block;
+
+}
+.o{
+position: relative;
+}
+.o::after{
+    position: absolute;
+    content: '\1F35F';
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.x{
+    position: relative;
+    }
+.x::after{
+    position: absolute;
+    content: '\1F354';
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
