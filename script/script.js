@@ -10,12 +10,22 @@ function handleClick(event) {
  
     let square = event.target
     let position = square.id
+    
     if (handleMove(position)){
-
-        setTimeout(() => {
-            alert(`O jogo Acabou  - O vencedor foi o jogador número: ${playerTime}`)
-        }, 10)   
+        if(playerTime == 0){
+            setTimeout(() => {
+                alert(`O jogo Acabou. O vencedor foi o jogador Batata frita. PARABÉNS`)
+            }, 10) 
+        } else{
+            setTimeout(() => {
+                alert(`O jogo Acabou. O vencedor foi o jogador Hamburguer. PARABÉNS`)
+            }, 10)
+        }
+       
+        
     }
+
+
     updateSquare(position) 
 }
 
@@ -39,4 +49,6 @@ function updateSquares() {
     
 }
 
-
+function novojogo() {
+    window.location.reload()
+}

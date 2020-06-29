@@ -1,14 +1,17 @@
+
 body{
     background-color: rgb(46, 40, 40);
+    font-family: 'Great Vibes', cursive;
     text-align: center;
 }
 h1{
-    font-family: 'Great Vibes', cursive;
+
     color: #c0e6e7;
     text-shadow: 5px 5px #121213de;
     font-size: 42px;
     
     margin-top: 0;
+    margin-bottom: 40px;
 }
 .stage{
 
@@ -50,4 +53,17 @@ position: relative;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+input{
+    margin-top: 40px;
+    padding: 10px;
+    width: 300px;
+    background-color: #351b11;
+    border: 1px solid #4b4f50d0;
+    box-shadow: 2px 2px 8px #d99ddf2f;
+    color: #ffffff;
+    font-family: 'Georgia, serif';
+    font-size: 20px;
+
 }
